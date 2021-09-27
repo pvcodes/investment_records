@@ -19,6 +19,6 @@ $(document).ready(() => {
             $("#" + prop).append("<thead><caption>" + prop + "</caption><tr><th>Date</th><th>Currency</th><th>Amount</th></tr></thead>" + tbody + tfoot)
                 // $("body").append("")
         }
-        $("body").prepend("<div id=\"footer\"><b>NOTE: </b>Please add amount in one CURRENCY only</p><br><p>To know how it works visit <a href=\"\">here</a>.</p></div>")
+        $("body").prepend("<div id=\"footer\"><b>NOTE: </b>Please add amount in one CURRENCY only</p><br><p>To know how it works visit <a href=\"https://github.com/pvcodes/investment_records#walkthrough\">here</a>.</p></div>")
     })
 })
